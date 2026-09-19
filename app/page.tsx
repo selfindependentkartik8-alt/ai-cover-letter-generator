@@ -612,166 +612,69 @@ export default function Home() {
         </div>
 
       </section>
-{/* FOOTER */}
+{/* FOOTER MAIN */}
 
-<footer className="relative z-10 border-t border-white/5 px-4 py-14">
+<div className="border-t border-white/5 pt-8">
 
-  <div className="mx-auto w-full max-w-6xl">
+  <div className="flex flex-col items-center justify-between gap-7 sm:flex-row">
 
-    {/* RELATED TOOLS */}
+    <div className="flex items-center gap-3">
 
-    <div className="mb-12">
+      <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-violet-400/20 bg-white/5">
 
-      <div className="mx-auto max-w-2xl text-center">
-
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-violet-400">
-          Explore More
-        </p>
-
-        <h2 className="mt-3 text-2xl font-bold text-white sm:text-3xl">
-          More AI Career Tools
-        </h2>
-
-        <p className="mt-3 text-sm leading-7 text-zinc-500">
-          Explore more AI-powered tools to improve your resume,
-          applications and professional communication.
-        </p>
+        <img
+          src="/logo.png"
+          alt="KrishAIWorks"
+          className="h-full w-full rounded-full object-cover"
+        />
 
       </div>
 
-      <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div>
 
-        {/* AI RESUME GENERATOR */}
+        <p className="font-semibold text-white">
+          KrishAIWorks
+        </p>
 
-        <a
-          href="https://airesumegenerator.krishaiworks.com/"
-          className="group rounded-2xl border border-white/5 bg-white/[0.025] p-5 transition hover:-translate-y-1 hover:border-violet-400/20 hover:bg-violet-400/[0.03]"
-        >
-
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-violet-400/10 bg-violet-400/10 text-lg">
-            📄
-          </div>
-
-          <h3 className="mt-4 text-sm font-semibold text-white transition group-hover:text-violet-300">
-            AI Resume Generator
-          </h3>
-
-          <p className="mt-2 text-xs leading-6 text-zinc-500">
-            Create a professional resume tailored to your career goals.
-          </p>
-
-        </a>
-
-        {/* AI RESUME ANALYZER */}
-
-        <a
-          href="https://airesumeanalyzer.krishaiworks.com/"
-          className="group rounded-2xl border border-white/5 bg-white/[0.025] p-5 transition hover:-translate-y-1 hover:border-violet-400/20 hover:bg-violet-400/[0.03]"
-        >
-
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-violet-400/10 bg-violet-400/10 text-lg">
-            🔍
-          </div>
-
-          <h3 className="mt-4 text-sm font-semibold text-white transition group-hover:text-violet-300">
-            AI Resume Analyzer
-          </h3>
-
-          <p className="mt-2 text-xs leading-6 text-zinc-500">
-            Analyze your resume and discover ways to improve it.
-          </p>
-
-        </a>
-
-        {/* AI EMAIL WRITER */}
-
-        <a
-          href="https://aiemailwriter.krishaiworks.com/"
-          className="group rounded-2xl border border-white/5 bg-white/[0.025] p-5 transition hover:-translate-y-1 hover:border-violet-400/20 hover:bg-violet-400/[0.03]"
-        >
-
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-violet-400/10 bg-violet-400/10 text-lg">
-            ✉️
-          </div>
-
-          <h3 className="mt-4 text-sm font-semibold text-white transition group-hover:text-violet-300">
-            AI Email Writer
-          </h3>
-
-          <p className="mt-2 text-xs leading-6 text-zinc-500">
-            Write professional emails quickly with AI.
-          </p>
-
-        </a>
-
-        {/* AI GRAMMAR & WRITING FIXER */}
-
-        <a
-          href="https://aigrammarwritingfixer.krishaiworks.com/"
-          className="group rounded-2xl border border-white/5 bg-white/[0.025] p-5 transition hover:-translate-y-1 hover:border-violet-400/20 hover:bg-violet-400/[0.03]"
-        >
-
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-violet-400/10 bg-violet-400/10 text-lg">
-            ✍️
-          </div>
-
-          <h3 className="mt-4 text-sm font-semibold text-white transition group-hover:text-violet-300">
-            AI Grammar & Writing Fixer
-          </h3>
-
-          <p className="mt-2 text-xs leading-6 text-zinc-500">
-            Fix grammar, spelling and improve your professional writing.
-          </p>
-
-        </a>
+        <p className="mt-1 text-xs text-zinc-600">
+          AI Solutions That Work
+        </p>
 
       </div>
 
     </div>
 
-    {/* FOOTER MAIN */}
+    {/* LEGAL LINKS + COPYRIGHT */}
 
-    <div className="border-t border-white/5 pt-8">
+    <div className="flex flex-col items-center gap-3 sm:items-end">
 
-      <div className="flex flex-col items-center justify-between gap-7 sm:flex-row">
+      <div className="flex flex-wrap justify-center gap-4 text-xs text-zinc-600">
 
-        <div className="flex items-center gap-3">
+        <a
+          href="https://krishaiworks.com/privacy-policy"
+          className="transition hover:text-violet-300"
+        >
+          Privacy Policy
+        </a>
 
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center overflow-hidden rounded-full border border-violet-400/20 bg-white/5">
-
-            <img
-              src="/logo.png"
-              alt="KrishAIWorks"
-              className="h-full w-full rounded-full object-cover"
-            />
-
-          </div>
-
-          <div>
-
-            <p className="font-semibold text-white">
-              KrishAIWorks
-            </p>
-
-            <p className="mt-1 text-xs text-zinc-600">
-              AI Solutions That Work
-            </p>
-
-          </div>
-
-        </div>
-
-        <p className="text-center text-xs text-zinc-600">
-          © {new Date().getFullYear()} KrishAIWorks. Built with AI.
-        </p>
+        <a
+          href="https://krishaiworks.com/terms-and-conditions"
+          className="transition hover:text-violet-300"
+        >
+          Terms & Conditions
+        </a>
 
       </div>
+
+      <p className="text-center text-xs text-zinc-600">
+        © {new Date().getFullYear()} KrishAIWorks. Built with AI.
+      </p>
 
     </div>
 
   </div>
 
-</footer>
+</div>
 
     </main>
   );
